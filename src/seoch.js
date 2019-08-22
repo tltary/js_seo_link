@@ -1,4 +1,4 @@
-export seoCh = (el) => {
+export const seoCh = (el) => {
 	let link = document.querySelectorAll(`${el}`);
 	
 	let actionLink = (e) => {
