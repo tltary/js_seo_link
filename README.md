@@ -4,16 +4,16 @@ simple implementation of js links to avoid self-referencing
 
 [Demo](https://tltary.github.io/js_seo_link/index.html)
 
-if you need add like modules add 
 
-### js
+
+### if you need add like modules add 
 ```
 	import seoCh from 'src/seoch.js';
 ```
 
-else add this code to your file
 
-### js
+
+### else add this code to your file
 ```js
 function seoCh(el) {
 	let link = document.querySelectorAll(`${el}`);
@@ -30,14 +30,14 @@ function seoCh(el) {
 }
 ```
 
-and use like
-### js 
+
+### and use like 
 ```
 	seoCh('<your-class>');
 ```
 
-if you need es5 use seolink.old.js
-### js 
+
+### if you need es5 use seolink.old.js 
 ```
 function seoCh(el) {
 	var link = document.querySelectorAll(''+el+'');
