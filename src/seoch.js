@@ -1,4 +1,4 @@
-export function seoCh(el) {
+export seoCh = (el) => {
 	let link = document.querySelectorAll(`${el}`);
 
 	for (let i=0;i<link.length;i=i+1) {
