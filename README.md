@@ -37,7 +37,7 @@ function seoCh(el) {
 ```
 
 
-### if you need es5 use seolink.old.js 
+### if you need es5 use seoch.old.js 
 ```
 function seoCh(el) {
 	var link = document.querySelectorAll(''+el+'');
