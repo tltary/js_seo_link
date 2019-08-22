@@ -8,7 +8,7 @@ simple implementation of js links to avoid self-referencing
 
 ### if you need add like modules add 
 ```
-	import seoCh from './src/seoch.js';
+	import {seoCh} from './src/seoch.js';
 ```
 
 
