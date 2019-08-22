@@ -7,8 +7,8 @@ simple implementation of js links to avoid self-referencing
 
 
 ### if you need add like modules add 
-```
-	import {seoCh} from './src/seoch.js';
+```js
+import {seoCh} from './src/seoch.js';
 ```
 
 
@@ -32,13 +32,13 @@ function seoCh(el) {
 
 
 ### and use like 
-```
-	seoCh('<your-class>');
+```js
+seoCh('<your-class>');
 ```
 
 
 ### if you need es5 use seoch.old.js 
-```
+```js
 function seoCh(el) {
 	var link = document.querySelectorAll(''+el+'');
 
